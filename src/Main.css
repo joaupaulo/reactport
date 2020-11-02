@@ -1,52 +1,167 @@
 
 
 .conteudo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     max-width: 760px;
     margin: 0 auto;
-    flex-direction: column;
+   margin-top: 50px;
+   font-size: 28px;
+   font-family: 'Montserrat', sans-serif;
+   }
+
+   .conteudo h1{
+       font-weight: 400;
+    color: #24292e;
+   }
+
+   .links{
+       display: flex;
+       justify-content: space-between;
+       color: #24292e;
+       font-size: 18px;
+       
+   }
+
+   .links h3 {
+    font-weight: 300;
+   }
+
+   a {
+       margin: 10px;
+   }
+
+i{
+    font-size: 30px;
+    margin: 10px;
+    color:  #24292e;
+
 }
 
-.conteudo h1{
-   font-weight: bold;
-}
+   .links a:hover {
+       color: #007bff;
+   }
 
-.conteudo h3 {
-    font-weight: 400;
-}
-
-.links :hover{
-    color: #007bff;
-}
-
-.links{
+.link1 {
     display: flex;
-    margin-top: 20px;
-   font-weight: 500;
+}
+
+
+/* 
+ Começamos o "Sobre Min " */
+
+
+ .sobre h3 {
+     font-size: 18px;
+     font-weight: 400;
+     margin-top: 50px;
+     width: 640px;
+     color: #24292e;
+ }
+
+ .imgport{
+     width: 173px;
+     height:170px ;
+     border: none;
+     border-radius: 15px;
+ }
+
+ .sobre1{
+     display: flex;
+     
+ }
+
+ .sobre1 h3{
+     margin-left: 20px;
+ }
+
+ .sobre {
+     margin-top: 60px;
+     font-family: 'Montserrat', sans-serif;
+
+
+}
+
+ hr{
+     margin-top: 100px;
+     border: 1px solid #007bff;
+     border-radius: 5px;
+ }
+
+ .experiencia h2 {
+margin-top: 40px;
+    font-weight: 400;
+    color: #24292e;
+ }
+
+
+
+.postos {
+    margin-top: 30px;
+    color: #24292e;
+
+}
+
+ .postos  h3{
+     font-size: 18px;
+     font-weight: 400;
+    
+ }
+
+
+ .postos  h4{
+     margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+
+.habilidades{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    justify-content: center;
+
+}
+
+
+.habilidades h3 {
+    font-size: 18px;
+}
+
+.habilidades h4{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.habilidades div{
+   
+    margin: 40px;
+}
+
+
+.linguas div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.linguas h3{
+
+        font-weight: 400;
+        font-size: 18px; 
+     }
+   
+.linguas hr {
+
     
 }
+  
 
-a{
-    margin: 10px;
+.form{
+    margin-top: 20px;
 }
 
-i {
-    margin: 10px;
-    font-size: 20px;
+.form h3 {
+margin-top: 10px;
+    font-weight: 400;
+        font-size: 18px; 
 }
-
-.sobre h3{
-    text-align: center;
-    font-weight: lighter;
-    font-size: 18px;
-
-}
-
-hr{
-    width: 100%;
-    margin-top: 80px;
-}
-
-
