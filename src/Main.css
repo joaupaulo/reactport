@@ -1,0 +1,52 @@
+
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 760px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.conteudo h1{
+   font-weight: bold;
+}
+
+.conteudo h3 {
+    font-weight: 400;
+}
+
+.links :hover{
+    color: #007bff;
+}
+
+.links{
+    display: flex;
+    margin-top: 20px;
+   font-weight: 500;
+    
+}
+
+a{
+    margin: 10px;
+}
+
+i {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.sobre h3{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 18px;
+
+}
+
+hr{
+    width: 100%;
+    margin-top: 80px;
+}
+
+
